@@ -10,10 +10,15 @@ KMeans is a unsupervised learning algorithm. It solves a clustering task which i
 
 KMeans is a parametrized iterative algorithm which calculates the new means to be the centroids of the observations in the clusters on each iteration.
 
-Presently, Ignite supports a few parameters for the KMeans classification algorithm:
+Basic parameters for the KMeans classification algorithm:
 
-k - a number of possible clusters
-maxIterations - one stop criteria (the other one is epsilon)
-epsilon - delta of convergence (delta between old and new centroid's values)
-distance - one of the distance metrics provided by the ML framework such as Euclidean, Hamming or Manhattan
-seed - one of initialization parameters which helps to reproduce models (trainer has a random initialization step to get the first centroids)
+-> k - a number of possible clusters
+
+-> maxIterations - one stop criteria (the other one is epsilon)
+
+-> epsilon - delta of convergence (delta between old and new centroid's values)
+
+-> distance - one of the distance metrics provided by the ML framework such as Euclidean, Hamming or Manhattan
+
+-> seed - one of initialization parameters which helps to reproduce models (trainer has a random initialization step to get the first centroids)
+
